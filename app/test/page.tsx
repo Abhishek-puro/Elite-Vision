@@ -56,7 +56,7 @@ export default function EyeTest() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-purple-400 p-4">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-purple-300 p-4">
       <h1 className="text-5xl font-bold mb-6 text-black">Eye Test</h1>
 
       {testCases.length === 0 ? (
@@ -79,7 +79,7 @@ export default function EyeTest() {
             placeholder="Type the Displayed Phrase"
             maxLength={7}
           />
-          <div className="fixed bottom-4">
+          <div className=" bottom-4">
             <Button 
               onClick={handleSubmit} 
               disabled={userInput.length < 7}
