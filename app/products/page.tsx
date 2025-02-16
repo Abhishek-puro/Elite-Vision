@@ -103,6 +103,7 @@ export default function ProductsPage() {
           <ProductGrid currentPage={currentPage} products={filteredProducts} onAddToCart={handleAddToCart} />
         </div>
       </main>
+      
     </div>
   );
 }

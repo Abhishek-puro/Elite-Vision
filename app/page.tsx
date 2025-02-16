@@ -123,6 +123,7 @@ export default function AuthPage() {
           </form>
         </CardContent>
       </Card>
+      
     </div>
   )
 }
